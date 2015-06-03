@@ -1,0 +1,4 @@
+Project User Guide v1.0
+
+	Hello! Welcome to our project. In it, we have several text files and C files that you can view and/or compile. Since you're reading this guide, you've probably already have all of the files from the Git repository. This means that there's literally nothing for you to do! Reading this was rather
+pointless, wasn't it?
