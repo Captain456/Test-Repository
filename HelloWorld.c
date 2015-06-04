@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(void)
+int main(int argc, char * argv[])
 {
 	char* word;
 	word = (char*) malloc(15 * sizeof(char));
