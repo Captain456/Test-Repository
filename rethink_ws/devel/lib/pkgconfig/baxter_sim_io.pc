@@ -1,0 +1,8 @@
+prefix=/home/chris/indigo/rethink_ws/devel
+
+Name: baxter_sim_io
+Description: Description of baxter_sim_io
+Version: 0.9.1
+Cflags: -I/home/chris/indigo/rethink_ws/src/baxter_sim_io/include
+Libs: -L/home/chris/indigo/rethink_ws/devel/lib -lbaxter_sim_io
+Requires: baxter_core_msgs

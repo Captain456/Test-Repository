@@ -1,0 +1,8 @@
+prefix=/home/chris/indigo/rethink_ws/devel
+
+Name: baxter_sim_controllers
+Description: Description of baxter_sim_controllers
+Version: 0.9.1
+Cflags: -I/home/chris/indigo/rethink_ws/src/baxter_sim_controllers/include
+Libs: -L/home/chris/indigo/rethink_ws/devel/lib -lbaxter_sim_controllers
+Requires: controller_interface control_toolbox effort_controllers baxter_core_msgs

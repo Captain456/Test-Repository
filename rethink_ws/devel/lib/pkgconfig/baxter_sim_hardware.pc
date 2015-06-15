@@ -1,0 +1,8 @@
+prefix=/home/chris/indigo/rethink_ws/devel
+
+Name: baxter_sim_hardware
+Description: Description of baxter_sim_hardware
+Version: 0.9.1
+Cflags: -I/home/chris/indigo/rethink_ws/src/baxter_sim_hardware/include
+Libs: -L/home/chris/indigo/rethink_ws/devel/lib -lbaxter_sim_hardware
+Requires: roscpp baxter_core_msgs cv_bridge image_transport baxter_sim_kinematics

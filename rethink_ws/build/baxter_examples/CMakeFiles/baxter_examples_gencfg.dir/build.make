@@ -35,52 +35,52 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/jade/rethink_ws/src/baxter_examples
+CMAKE_SOURCE_DIR = /home/chris/indigo/rethink_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/jade/rethink_ws/build/baxter_examples
+CMAKE_BINARY_DIR = /home/chris/indigo/rethink_ws/build
 
 # Utility rule file for baxter_examples_gencfg.
 
 # Include the progress variables for this target.
-include CMakeFiles/baxter_examples_gencfg.dir/progress.make
+include baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/progress.make
 
-CMakeFiles/baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
-CMakeFiles/baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py
+baxter_examples/CMakeFiles/baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+baxter_examples/CMakeFiles/baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py
 
-/home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /home/chris/jade/rethink_ws/src/baxter_examples/cfg/JointSpringsExample.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_examples/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/JointSpringsExample.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_examples/cfg/JointSpringsExample.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_examples /home/chris/jade/rethink_ws/devel/include/baxter_examples /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples
+/home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /home/chris/indigo/rethink_ws/src/baxter_examples/cfg/JointSpringsExample.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/JointSpringsExample.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_examples && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_examples/cfg/JointSpringsExample.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_examples /home/chris/indigo/rethink_ws/devel/include/baxter_examples /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples
 
-/home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
 
-baxter_examples_gencfg: CMakeFiles/baxter_examples_gencfg
-baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
-baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.dox
-baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig-usage.dox
-baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py
-baxter_examples_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.wikidoc
-baxter_examples_gencfg: CMakeFiles/baxter_examples_gencfg.dir/build.make
+baxter_examples_gencfg: baxter_examples/CMakeFiles/baxter_examples_gencfg
+baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_examples/JointSpringsExampleConfig.h
+baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.dox
+baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig-usage.dox
+baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py
+baxter_examples_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_examples/docs/JointSpringsExampleConfig.wikidoc
+baxter_examples_gencfg: baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/build.make
 .PHONY : baxter_examples_gencfg
 
 # Rule to build all files generated by this target.
-CMakeFiles/baxter_examples_gencfg.dir/build: baxter_examples_gencfg
-.PHONY : CMakeFiles/baxter_examples_gencfg.dir/build
+baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/build: baxter_examples_gencfg
+.PHONY : baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/build
 
-CMakeFiles/baxter_examples_gencfg.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/baxter_examples_gencfg.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/baxter_examples_gencfg.dir/clean
+baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/clean:
+	cd /home/chris/indigo/rethink_ws/build/baxter_examples && $(CMAKE_COMMAND) -P CMakeFiles/baxter_examples_gencfg.dir/cmake_clean.cmake
+.PHONY : baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/clean
 
-CMakeFiles/baxter_examples_gencfg.dir/depend:
-	cd /home/chris/jade/rethink_ws/build/baxter_examples && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/jade/rethink_ws/src/baxter_examples /home/chris/jade/rethink_ws/src/baxter_examples /home/chris/jade/rethink_ws/build/baxter_examples /home/chris/jade/rethink_ws/build/baxter_examples /home/chris/jade/rethink_ws/build/baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/baxter_examples_gencfg.dir/depend
+baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/depend:
+	cd /home/chris/indigo/rethink_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/indigo/rethink_ws/src /home/chris/indigo/rethink_ws/src/baxter_examples /home/chris/indigo/rethink_ws/build /home/chris/indigo/rethink_ws/build/baxter_examples /home/chris/indigo/rethink_ws/build/baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : baxter_examples/CMakeFiles/baxter_examples_gencfg.dir/depend
 

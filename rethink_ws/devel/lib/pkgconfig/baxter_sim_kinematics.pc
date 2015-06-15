@@ -1,0 +1,8 @@
+prefix=/home/chris/indigo/rethink_ws/devel
+
+Name: baxter_sim_kinematics
+Description: Description of baxter_sim_kinematics
+Version: 0.9.1
+Cflags: -I/home/chris/indigo/rethink_ws/src/baxter_sim_kinematics/include
+Libs: -L/home/chris/indigo/rethink_ws/devel/lib -lbaxter_sim_kinematics
+Requires: std_msgs baxter_core_msgs gazebo_msgs sensor_msgs kdl_parser

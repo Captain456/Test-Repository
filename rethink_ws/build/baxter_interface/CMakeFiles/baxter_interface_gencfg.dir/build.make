@@ -35,140 +35,140 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chris/jade/rethink_ws/src/baxter_interface
+CMAKE_SOURCE_DIR = /home/chris/indigo/rethink_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chris/jade/rethink_ws/build/baxter_interface
+CMAKE_BINARY_DIR = /home/chris/indigo/rethink_ws/build
 
 # Utility rule file for baxter_interface_gencfg.
 
 # Include the progress variables for this target.
-include CMakeFiles/baxter_interface_gencfg.dir/progress.make
+include baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/progress.make
 
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
-CMakeFiles/baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+baxter_interface/CMakeFiles/baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
 
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /home/chris/jade/rethink_ws/src/baxter_interface/cfg/PositionJointTrajectoryActionServer.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PositionJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_interface/cfg/PositionJointTrajectoryActionServer.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_interface /home/chris/jade/rethink_ws/devel/include/baxter_interface /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/PositionJointTrajectoryActionServer.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PositionJointTrajectoryActionServer.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/PositionJointTrajectoryActionServer.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_interface /home/chris/indigo/rethink_ws/devel/include/baxter_interface /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /home/chris/jade/rethink_ws/src/baxter_interface/cfg/VelocityJointTrajectoryActionServer.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/VelocityJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_interface/cfg/VelocityJointTrajectoryActionServer.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_interface /home/chris/jade/rethink_ws/devel/include/baxter_interface /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/VelocityJointTrajectoryActionServer.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/VelocityJointTrajectoryActionServer.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/VelocityJointTrajectoryActionServer.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_interface /home/chris/indigo/rethink_ws/devel/include/baxter_interface /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /home/chris/jade/rethink_ws/src/baxter_interface/cfg/PositionFFJointTrajectoryActionServer.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PositionFFJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_interface/cfg/PositionFFJointTrajectoryActionServer.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_interface /home/chris/jade/rethink_ws/devel/include/baxter_interface /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/PositionFFJointTrajectoryActionServer.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/PositionFFJointTrajectoryActionServer.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/PositionFFJointTrajectoryActionServer.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_interface /home/chris/indigo/rethink_ws/devel/include/baxter_interface /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /home/chris/jade/rethink_ws/src/baxter_interface/cfg/GripperActionServer.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GripperActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_interface/cfg/GripperActionServer.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_interface /home/chris/jade/rethink_ws/devel/include/baxter_interface /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/GripperActionServer.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/GripperActionServer.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/GripperActionServer.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_interface /home/chris/indigo/rethink_ws/devel/include/baxter_interface /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /home/chris/jade/rethink_ws/src/baxter_interface/cfg/HeadActionServer.cfg
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
-/home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /opt/ros/jade/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HeadActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py"
-	catkin_generated/env_cached.sh /home/chris/jade/rethink_ws/src/baxter_interface/cfg/HeadActionServer.cfg /opt/ros/jade/share/dynamic_reconfigure/cmake/.. /home/chris/jade/rethink_ws/devel/share/baxter_interface /home/chris/jade/rethink_ws/devel/include/baxter_interface /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/HeadActionServer.cfg
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.py.template
+/home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h: /opt/ros/indigo/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/chris/indigo/rethink_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating dynamic reconfigure files from cfg/HeadActionServer.cfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py"
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && ../catkin_generated/env_cached.sh /home/chris/indigo/rethink_ws/src/baxter_interface/cfg/HeadActionServer.cfg /opt/ros/indigo/share/dynamic_reconfigure/cmake/.. /home/chris/indigo/rethink_ws/devel/share/baxter_interface /home/chris/indigo/rethink_ws/devel/include/baxter_interface /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig-usage.dox: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig-usage.dox: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
 
-/home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.wikidoc: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+/home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.wikidoc: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
 
-baxter_interface_gencfg: CMakeFiles/baxter_interface_gencfg
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig-usage.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.wikidoc
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig-usage.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.wikidoc
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig-usage.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.wikidoc
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig-usage.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.wikidoc
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig-usage.dox
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
-baxter_interface_gencfg: /home/chris/jade/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.wikidoc
-baxter_interface_gencfg: CMakeFiles/baxter_interface_gencfg.dir/build.make
+baxter_interface_gencfg: baxter_interface/CMakeFiles/baxter_interface_gencfg
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig-usage.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionJointTrajectoryActionServerConfig.wikidoc
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig-usage.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/VelocityJointTrajectoryActionServerConfig.wikidoc
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig-usage.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/PositionFFJointTrajectoryActionServerConfig.wikidoc
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig-usage.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/GripperActionServerConfig.wikidoc
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig-usage.dox
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
+baxter_interface_gencfg: /home/chris/indigo/rethink_ws/devel/share/baxter_interface/docs/HeadActionServerConfig.wikidoc
+baxter_interface_gencfg: baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/build.make
 .PHONY : baxter_interface_gencfg
 
 # Rule to build all files generated by this target.
-CMakeFiles/baxter_interface_gencfg.dir/build: baxter_interface_gencfg
-.PHONY : CMakeFiles/baxter_interface_gencfg.dir/build
+baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/build: baxter_interface_gencfg
+.PHONY : baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/build
 
-CMakeFiles/baxter_interface_gencfg.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/baxter_interface_gencfg.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/baxter_interface_gencfg.dir/clean
+baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/clean:
+	cd /home/chris/indigo/rethink_ws/build/baxter_interface && $(CMAKE_COMMAND) -P CMakeFiles/baxter_interface_gencfg.dir/cmake_clean.cmake
+.PHONY : baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/clean
 
-CMakeFiles/baxter_interface_gencfg.dir/depend:
-	cd /home/chris/jade/rethink_ws/build/baxter_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/jade/rethink_ws/src/baxter_interface /home/chris/jade/rethink_ws/src/baxter_interface /home/chris/jade/rethink_ws/build/baxter_interface /home/chris/jade/rethink_ws/build/baxter_interface /home/chris/jade/rethink_ws/build/baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/baxter_interface_gencfg.dir/depend
+baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/depend:
+	cd /home/chris/indigo/rethink_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chris/indigo/rethink_ws/src /home/chris/indigo/rethink_ws/src/baxter_interface /home/chris/indigo/rethink_ws/build /home/chris/indigo/rethink_ws/build/baxter_interface /home/chris/indigo/rethink_ws/build/baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : baxter_interface/CMakeFiles/baxter_interface_gencfg.dir/depend
 

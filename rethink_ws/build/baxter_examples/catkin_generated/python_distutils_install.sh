@@ -12,17 +12,17 @@ if [ -n "$DESTDIR" ] ; then
     DESTDIR_ARG="--root=$DESTDIR"
 fi
 
-cd "/home/chris/jade/rethink_ws/src/baxter_examples"
+cd "/home/chris/indigo/rethink_ws/src/baxter_examples"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 /usr/bin/env \
-    PYTHONPATH="/home/chris/jade/rethink_ws/install/lib/python2.7/dist-packages:/home/chris/jade/rethink_ws/build/baxter_examples/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/chris/jade/rethink_ws/build/baxter_examples" \
+    PYTHONPATH="/home/chris/indigo/rethink_ws/install/lib/python2.7/dist-packages:/home/chris/indigo/rethink_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/chris/indigo/rethink_ws/build" \
     "/usr/bin/python" \
-    "/home/chris/jade/rethink_ws/src/baxter_examples/setup.py" \
-    build --build-base "/home/chris/jade/rethink_ws/build/baxter_examples" \
+    "/home/chris/indigo/rethink_ws/src/baxter_examples/setup.py" \
+    build --build-base "/home/chris/indigo/rethink_ws/build/baxter_examples" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/chris/jade/rethink_ws/install" --install-scripts="/home/chris/jade/rethink_ws/install/bin"
+    --install-layout=deb --prefix="/home/chris/indigo/rethink_ws/install" --install-scripts="/home/chris/indigo/rethink_ws/install/bin"
