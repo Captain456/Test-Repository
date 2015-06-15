@@ -1,0 +1,59 @@
+[[36mbaxter_interface[0m] [1m[34m==>[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface/build_env.sh /usr/bin/cmake /home/chris/jade/rethink_ws/src/baxter_interface -DCATKIN_DEVEL_PREFIX=/home/chris/jade/rethink_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chris/jade/rethink_ws/install[0m' [30m[1min[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface[0m'[0m
+[36m-- [0mThe C compiler identification is GNU 4.8.2
+[0m[36m-- [0mThe CXX compiler identification is GNU 4.8.2
+[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /home/chris/jade/rethink_ws/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /home/chris/jade/rethink_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /home/chris/jade/rethink_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.6") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing Debian Python package layout
+[0m[36m-- [0mUsing empy:[33m /usr/bin/empy
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /home/chris/jade/rethink_ws/build/baxter_interface/test_results
+[0m[0m[36m-- [0mLooking for include file pthread.h
+[0m[36m-- [0mLooking for include file pthread.h - found
+[0m[36m-- [0mLooking for pthread_create
+[0m[36m-- [0mLooking for pthread_create - not found
+[0m[36m-- [0mLooking for pthread_create in pthreads
+[0m[36m-- [0mLooking for pthread_create in pthreads - not found
+[0m[36m-- [0mLooking for pthread_create in pthread
+[0m[36m-- [0mLooking for pthread_create in pthread - found
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound gtest sources under '/usr/src/gtest':[33m gtests will be built
+[0m[0m[36m-- [0mUsing Python nosetests:[33m /usr/bin/nosetests-2.7
+[0m[0m[36m-- [0mcatkin 0.6.14
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[36m-- [0mBuild files have been written to:[33m /home/chris/jade/rethink_ws/build/baxter_interface
+[0m[0m[[36mbaxter_interface[0m] [32m<==[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface/build_env.sh /usr/bin/cmake /home/chris/jade/rethink_ws/src/baxter_interface -DCATKIN_DEVEL_PREFIX=/home/chris/jade/rethink_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chris/jade/rethink_ws/install[0m' finished with return code '[1m0[0m'[0m
+[[36mbaxter_interface[0m] [1m[34m==>[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface[0m'[0m
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_py
+[0m[  0%] Built target baxter_core_msgs_generate_messages_py
+[35m[1mScanning dependencies of target baxter_interface_gencfg
+[0m[ 40%] [ 40%] [34m[1mGenerating dynamic reconfigure files from cfg/VelocityJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
+[34m[1mGenerating dynamic reconfigure files from cfg/PositionJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
+[0m[0mGenerating reconfiguration files for PositionJointTrajectoryActionServer in baxter_interface
+Generating reconfiguration files for VelocityJointTrajectoryActionServer in baxter_interface
+Wrote header file in /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+[ 60%] Wrote header file in /home/chris/jade/rethink_ws/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+[34m[1mGenerating dynamic reconfigure files from cfg/PositionFFJointTrajectoryActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
+[0m[ 80%] [34m[1mGenerating dynamic reconfigure files from cfg/GripperActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
+[0mGenerating reconfiguration files for PositionFFJointTrajectoryActionServer in baxter_interface
+Wrote header file in /home/chris/jade/rethink_ws/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+[100%] Generating reconfiguration files for GripperActionServer in baxter_interface
+[34m[1mGenerating dynamic reconfigure files from cfg/HeadActionServer.cfg: /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h /home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
+[0mWrote header file in /home/chris/jade/rethink_ws/devel/include/baxter_interface/GripperActionServerConfig.h
+Generating reconfiguration files for HeadActionServer in baxter_interface
+Wrote header file in /home/chris/jade/rethink_ws/devel/include/baxter_interface/HeadActionServerConfig.h
+[100%] Built target baxter_interface_gencfg
+[[36mbaxter_interface[0m] [32m<==[0m '[1m/home/chris/jade/rethink_ws/build/baxter_interface/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m

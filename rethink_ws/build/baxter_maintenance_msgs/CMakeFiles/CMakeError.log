@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec301054633/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec301054633.dir/build.make CMakeFiles/cmTryCompileExec301054633.dir/build
+make[1]: Entering directory `/home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec301054633.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec301054633.dir/CheckSymbolExists.c.o   -c /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec301054633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec301054633.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec301054633.dir/CheckSymbolExists.c.o  -o cmTryCompileExec301054633 -rdynamic 
+CMakeFiles/cmTryCompileExec301054633.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec301054633] Error 1
+make: *** [cmTryCompileExec301054633/fast] Error 2
+
+File /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3425935261/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3425935261.dir/build.make CMakeFiles/cmTryCompileExec3425935261.dir/build
+make[1]: Entering directory `/home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3425935261.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3425935261.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3425935261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3425935261.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3425935261.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3425935261 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/chris/jade/rethink_ws/build/baxter_maintenance_msgs/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3425935261] Error 1
+make: *** [cmTryCompileExec3425935261/fast] Error 2
+
+

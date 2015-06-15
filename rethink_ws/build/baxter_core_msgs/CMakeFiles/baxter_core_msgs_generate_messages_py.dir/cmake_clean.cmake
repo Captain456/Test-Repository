@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/baxter_core_msgs_generate_messages_py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorCommand.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_ITBStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionDetectionState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorProperties.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogOutputCommand.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadPanCommand.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_RobustControllerStatus.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraControl.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalOutputCommand.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraSettings.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_SEAJointState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_JointCommand.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_ITBState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionAvoidanceState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointStates.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorState.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_OpenCamera.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_CloseCamera.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_SolvePositionIK.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_ListCameras.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/__init__.py"
+  "/home/chris/jade/rethink_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/baxter_core_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
